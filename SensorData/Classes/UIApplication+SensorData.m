@@ -6,7 +6,7 @@
 //
 
 #import "UIApplication+SensorData.h"
-#import "NSObject+Swizzler.h"
+#import "NSObject+Swizzle.h"
 #import "UIView+TextContentData.h"
 
 @implementation UIApplication (SensorData)

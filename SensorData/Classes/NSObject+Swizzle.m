@@ -5,7 +5,7 @@
 //  Created by Apple on 11/1/22.
 //
 
-#import "NSObject+Swizzler.h"
+#import "NSObject+Swizzle.h"
 #import <objc/runtime.h>
 
 @implementation NSObject (Swizzler)

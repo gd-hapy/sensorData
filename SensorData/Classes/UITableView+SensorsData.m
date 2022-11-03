@@ -8,7 +8,7 @@
 #define __scheme 3
 #import "UITableView+SensorsData.h"
 #import <objc/message.h>
-#import "NSObject+Swizzler.h"
+#import "NSObject+Swizzle.h"
 #import "UIView+TextContentData.h"
 
 #import "TableViewDynamicDelegate.h"

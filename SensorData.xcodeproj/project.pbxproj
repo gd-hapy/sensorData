@@ -18,7 +18,7 @@
 		18A6387429125F110024A725 /* UIApplication+SensorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6386629125F110024A725 /* UIApplication+SensorData.m */; };
 		18A6387529125F110024A725 /* UILongPressGestureRecognizer+SensorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6386729125F110024A725 /* UILongPressGestureRecognizer+SensorData.m */; };
 		18A6387629125F110024A725 /* SensorDataDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6386B29125F110024A725 /* SensorDataDelegateProxy.m */; };
-		18A6387729125F110024A725 /* NSObject+Swizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6386C29125F110024A725 /* NSObject+Swizzler.m */; };
+		18A6387729125F110024A725 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6386C29125F110024A725 /* NSObject+Swizzle.m */; };
 		18A6387829125F110024A725 /* UITapGestureRecognizer+SensorsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6387029125F110024A725 /* UITapGestureRecognizer+SensorsData.m */; };
 		18A6387929125F110024A725 /* TableViewDynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6387129125F110024A725 /* TableViewDynamicDelegate.m */; };
 		18A6387A29125F110024A725 /* UITableView+SensorsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6387229125F110024A725 /* UITableView+SensorsData.m */; };
@@ -38,7 +38,7 @@
 		18A6385829125E9D0024A725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A6385A29125E9D0024A725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A6385B29125E9D0024A725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18A6386329125F110024A725 /* NSObject+Swizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzler.h"; sourceTree = "<group>"; };
+		18A6386329125F110024A725 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
 		18A6386429125F110024A725 /* SensorDataDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorDataDelegateProxy.h; sourceTree = "<group>"; };
 		18A6386529125F110024A725 /* UIView+TextContentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TextContentData.m"; sourceTree = "<group>"; };
 		18A6386629125F110024A725 /* UIApplication+SensorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SensorData.m"; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		18A6386929125F110024A725 /* TableViewDynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDynamicDelegate.h; sourceTree = "<group>"; };
 		18A6386A29125F110024A725 /* UITapGestureRecognizer+SensorsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+SensorsData.h"; sourceTree = "<group>"; };
 		18A6386B29125F110024A725 /* SensorDataDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorDataDelegateProxy.m; sourceTree = "<group>"; };
-		18A6386C29125F110024A725 /* NSObject+Swizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzler.m"; sourceTree = "<group>"; };
+		18A6386C29125F110024A725 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
 		18A6386D29125F110024A725 /* UILongPressGestureRecognizer+SensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILongPressGestureRecognizer+SensorData.h"; sourceTree = "<group>"; };
 		18A6386E29125F110024A725 /* UIApplication+SensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SensorData.h"; sourceTree = "<group>"; };
 		18A6386F29125F110024A725 /* UIView+TextContentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TextContentData.h"; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 				18A6387E29126A130024A725 /* UIViewController+SensorData.h */,
 				18A6387F29126A130024A725 /* UIViewController+SensorData.m */,
 				18A6387B29125F950024A725 /* Gesture */,
-				18A6386329125F110024A725 /* NSObject+Swizzler.h */,
-				18A6386C29125F110024A725 /* NSObject+Swizzler.m */,
+				18A6386329125F110024A725 /* NSObject+Swizzle.h */,
+				18A6386C29125F110024A725 /* NSObject+Swizzle.m */,
 				18A6386E29125F110024A725 /* UIApplication+SensorData.h */,
 				18A6386629125F110024A725 /* UIApplication+SensorData.m */,
 			);
@@ -217,7 +217,7 @@
 			files = (
 				18A6385129125E9C0024A725 /* ViewController.m in Sources */,
 				18A6387829125F110024A725 /* UITapGestureRecognizer+SensorsData.m in Sources */,
-				18A6387729125F110024A725 /* NSObject+Swizzler.m in Sources */,
+				18A6387729125F110024A725 /* NSObject+Swizzle.m in Sources */,
 				18A6387A29125F110024A725 /* UITableView+SensorsData.m in Sources */,
 				18A6387929125F110024A725 /* TableViewDynamicDelegate.m in Sources */,
 				18A6388029126A130024A725 /* UIViewController+SensorData.m in Sources */,

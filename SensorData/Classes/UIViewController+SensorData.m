@@ -6,7 +6,7 @@
 //
 
 #import "UIViewController+SensorData.h"
-#import "NSObject+Swizzler.h"
+#import "NSObject+Swizzle.h"
 #import <objc/runtime.h>
 
 @implementation UIViewController (SensorData)
